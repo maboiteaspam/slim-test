@@ -1,42 +1,43 @@
 {
-  "name": "slim/slim-skeleton",
-  "description": "A Slim Framework skeleton application for rapid development",
-  "keywords": ["microframework","rest","router"],
-  "homepage": "http://github.com/codeguy/Slim-Skeleton",
-  "license": "MIT",
-  "authors": [
-    {
-    }
-  ],
-  "require": {
-    "php": ">=5.5.0",
-    "slim/slim": "~3.0",
-    "slim/php-view": "^2.0",
-    "monolog/monolog": "^1.17",
-    "twig/twig": "1.*",
-    "c/stream-object-transform": "v1.0.x",
-    "psr/http-message": "^1.0",
-    "st/event-dispatcher": "v1.0.x",
-    "im/event-dispatcher": "v1.0.x"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:maboiteaspam/StreamObjectTransform.git"
+    "name": "maboiteaspam/tomate",
+    "authors": [
+        {
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "~3.0",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "twig/twig": "1.*",
+        "psr/http-message": "^1.0",
+        "c/stream-object-transform": "v1.0.2",
+        "st/event-dispatcher": "v1.0.2",
+        "im/event-dispatcher": "v1.0.5",
+        "st/wrap": "v1.0.1"
     },
-    {
-      "type": "git",
-      "url": "git@github.com:maboiteaspam/st-event-dispatcher.git"
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:maboiteaspam/StreamObjectTransform.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:maboiteaspam/st-event-dispatcher.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:maboiteaspam/im-event-dispatcher.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:maboiteaspam/st-wrap.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "..\\local"
+        }
     },
-    {
-      "type": "git",
-      "url": "git@github.com:maboiteaspam/im-event-dispatcher.git"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "": "..\\local"
-    }
-  },
-  "minimum-stability": "dev"
+    "minimum-stability": "dev"
 }
