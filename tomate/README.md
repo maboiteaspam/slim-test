@@ -1,4 +1,4 @@
-# Slim Framework Skeleton Application
+# Slim Framework Demo Application
 
 Use this skeleton application to quickly setup and start working on a new Slim Framework application. This application uses the latest Slim and Slim-Views repositories. It also uses Sensio Labs' [Twig](http://twig.sensiolabs.org) template library.
 
