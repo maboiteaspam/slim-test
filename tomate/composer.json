@@ -17,10 +17,10 @@
     "slim/php-view": "^2.0",
     "monolog/monolog": "^1.17",
     "twig/twig": "1.*",
-    "c/stream-object-transform": "dev-master#v1.0.1",
+    "c/stream-object-transform": "v1.0.x",
     "psr/http-message": "^1.0",
-    "st/event-dispatcher": "dev-master#v1.0.2",
-    "im/event-dispatcher": "dev-master#v1.0.3"
+    "st/event-dispatcher": "v1.0.x",
+    "im/event-dispatcher": "v1.0.x"
   },
   "repositories": [
     {
